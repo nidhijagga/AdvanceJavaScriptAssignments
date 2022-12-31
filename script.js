@@ -1,14 +1,14 @@
-//this keyWord inside Global  ***********************************
-// this.table = 'window table';
-// console.log(window.table);
+// this keyWord inside Global ***********************************
+this.table = 'window table';
+console.log(window.table);
 
-// this.garage = {
-//     table: 'garage table',
-//     // Commented for function.
-//     // cleanTable(){
-//     //     console.log(`cleaning ${this.table}`)
-//     // }s
-// };
+this.garage = {
+    table: 'garage table',
+    // Commented for function.
+    // cleanTable(){
+    //     console.log(`cleaning ${this.table}`)
+    // }s
+};
 // console.log(this.garage.table);
 // // this.garage.cleanTable();
 
